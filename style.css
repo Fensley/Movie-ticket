@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(121, 114, 114);
+  /* color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.card{
+  border: 1px solid;
+  height: 820px;
+  width: 356px;
+  border-radius: 2rem;
+}
+main{
+  background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/Insidious-Movies-in-Order.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30%;
+  border-radius: 1rem 1rem 0 0 ;
+  color: white;
+}
+.small-sect{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:20px ;
+}
+section{
+  /* height: 60%; */
+  background-color: white;
+  text-align: center;
+}
+footer{
+  background-color: #ec407a;
+  padding: 0;
+  margin: 0;
+}
+  .mitan1{
+    color: #ec407a;
+    position: relative;
+    left: 7rem;
+
+  }
+  .mitan2{
+    width: 1;
+    color: #4e4649;
+    position: absolute;
+    top: 20.5rem;
+    right: 28rem;
+    /* cursor: pointer; */
+  }
