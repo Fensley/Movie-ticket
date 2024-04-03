@@ -1,9 +1,9 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-color: rgb(121, 114, 114);
   /* color: white; */
   display: flex;
@@ -11,53 +11,121 @@ body{
   justify-content: center;
   height: 90vh;
 }
-.card{
-  border: 1px solid;
+.card {
   height: 620px;
   width: 356px;
   border-radius: 2rem;
 }
-main{
-  background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/Insidious-Movies-in-Order.jpg');
+main {
+  background-image: url("https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=859&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30%;
-  border-radius: 1rem 1rem 0 0 ;
+  height: 40%;
+  border-radius: 1rem 1rem 0 0;
   color: white;
 }
-.small-sect{
+.mainh3 {
+  color: rgb(248, 228, 228);
+  font-size: 14px;
+  position: relative;
+  top: 9.5rem;
+  left: 19px;
+}
+.mainh3 p {
+  position: relative;
+  left: -5px;
+  font-size: 11px;
+}
+main button {
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+}
+.location {
+  font-size: 100px;
+}
+.small-sect {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding:20px ;
+  padding: 20px;
 }
-section{
-  /* height: 60%; */
+section {
+  height: 50%;
   background-color: white;
   text-align: center;
 }
-footer{
+footer {
   background-color: #ec407a;
   padding: 0;
   margin: 0;
 }
-  .mitan1{
-    color: #ec407a;
-    position: relative;
-    left: 7rem;
-
-  }
-  .mitan2{
-    width: 1;
-    color: #4e4649;
-    position: absolute;
-    top: 20.5rem;
-    right: 28rem;
-    /* cursor: pointer; */
-  }
-.border{
+.mitan1 {
+  color: #ec407a;
+  position: relative;
+  left: 7rem;
+}
+.mitan2 {
+  color: #4e4649;
+  position: relative;
+  top: -12.26rem;
+  right: 5rem;
+}
+.border {
   border: 1px solid yellow;
 }
-  /*
-  Not finish yet 
-  */
+.date {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+  position: relative;
+  height: 40px;
+}
+.date2,
+.Tickets,
+.total {
+  position: relative;
+  display: flex;
+  font-size: 15px;
+}
+.btn {
+  font-weight: bold;
+  padding: 1rem;
+  position: relative;
+  font-size: 15px;
+  left: 16.5rem;
+  bottom: 1.3rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: rgb(22, 22, 22);
+}
+.screen-container {
+  position: relative;
+  left: 5rem;
+}
+.screen {
+  color: gray;
+  position: relative;
+  right: -1rem;
+  padding: 10px;
+}
+.date2 span {
+  position: relative;
+  left: 3rem;
+}
+.Tickets span {
+  position: relative;
+  left: 2rem;
+}
+.total span {
+  position: relative;
+  left: 1.8rem;
+}
